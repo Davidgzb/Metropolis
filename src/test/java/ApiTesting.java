@@ -1,17 +1,16 @@
-import com.google.common.base.Verify;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 
 public class ApiTesting {
@@ -19,14 +18,13 @@ public class ApiTesting {
     @Test
     public void checkJsonStructure(){
 
-
+        // Here we make the GET call to the API and convert the response into a string
         RestAssured.baseURI = "https://api.github.com/repos/metrolab/SingleDateAndTimePicker";
         RequestSpecification httpRequest = RestAssured.given();
         Response response = httpRequest.request(Method.GET);
-
         String responseBody = response.getBody().asString();
-        System.out.println("Response body is => " + responseBody);
 
+        // Here we read the .txt file line by line and compare it with the JSON to make sure every key is in the response
         String fileName = "ResponseTextFile.txt";
         String line = null;
 
@@ -35,6 +33,7 @@ public class ApiTesting {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             while((line = bufferedReader.readLine()) != null){
+
                 if (line.contains("\":")){
                     int startIndex = line.indexOf('\"');
                     int endIndex = line.indexOf(':', startIndex+1);
@@ -52,6 +51,20 @@ public class ApiTesting {
         } catch (IOException e) {
             System.out.println("Error reading the file");
         }
+
+    }
+
+    @Test
+    public void checkLogInValue(){
+
+        // Here we make the GET call and convert the Owner array of the response into a Map so that we can assert the value of login
+        RestAssured.baseURI = "https://api.github.com/repos/metrolab/SingleDateAndTimePicker";
+        RequestSpecification httpRequest = RestAssured.given();
+        Response response = httpRequest.request(Method.GET);
+
+        Map<String,String> loginValue = response.jsonPath().getMap("owner");
+        Assert.assertEquals(loginValue.get("login"),"metrolab");
+
 
     }
 
