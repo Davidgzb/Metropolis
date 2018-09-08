@@ -30,7 +30,11 @@ public class ApiTesting {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             while((line = bufferedReader.readLine()) != null){
-                System.out.println(line);
+                //System.out.println(line);
+                if (line.contains("\":")){
+                    System.out.println(line);
+                    int startIndex = line.indexOf('\"');
+                }
             }
 
             bufferedReader.close();
