@@ -1,7 +1,11 @@
+import com.google.common.base.Verify;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
+import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
@@ -14,6 +18,7 @@ public class ApiTesting {
 
     @Test
     public void checkJsonStructure(){
+
 
         RestAssured.baseURI = "https://api.github.com/repos/metrolab/SingleDateAndTimePicker";
         RequestSpecification httpRequest = RestAssured.given();
@@ -30,10 +35,13 @@ public class ApiTesting {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             while((line = bufferedReader.readLine()) != null){
-                //System.out.println(line);
                 if (line.contains("\":")){
-                    System.out.println(line);
                     int startIndex = line.indexOf('\"');
+                    int endIndex = line.indexOf(':', startIndex+1);
+
+                    String keyValue = line.substring(startIndex,endIndex+1);
+
+                    Assert.assertTrue(responseBody.contains(keyValue), "Test Failed: the response does not contain: " + keyValue);
                 }
             }
 

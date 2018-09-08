@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ce9d3c-8850-4191-8159-0985aa886593" name="Default" comment="Added ResponseTextFile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ApiTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTesting.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,23 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ApiTesting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="416">
+              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiTesting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ApiTesting.java">
+      <file leaf-file-name="ResponseTextFile.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResponseTextFile.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -52,6 +54,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ResponseTextFile.txt" />
         <option value="$PROJECT_DIR$/src/test/java/ApiTesting.java" />
       </list>
     </option>
@@ -63,7 +66,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="1001" />
@@ -125,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.ApiTesting">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -144,6 +147,29 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ApiTesting" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Metropolis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiTesting" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="ApiTesting.checkJsonStructure" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Metropolis" />
@@ -190,8 +216,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="TestNG.ApiTesting.checkJsonStructure" />
+      <item itemvalue="TestNG.ApiTesting" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ApiTesting" />
         <item itemvalue="TestNG.ApiTesting.checkJsonStructure" />
       </list>
     </recent_temporary>
@@ -210,49 +241,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 19h 43m 48s.xml">
+    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 21h 42m 43s.xml">
       <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 05m 55s.xml">
+    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 21h 44m 46s.xml">
       <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 06m 35s.xml">
+    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 21h 46m 22s.xml">
       <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 13m 27s.xml">
-      <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 48m 35s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 14m 01s.xml">
-      <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 48m 43s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 15m 33s.xml">
-      <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 50m 00s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 15m 52s.xml">
-      <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 52m 59s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ApiTesting_checkJsonStructure - 2018.09.08 at 20h 25m 54s.xml">
-      <configuration name="ApiTesting.checkJsonStructure" configurationId="TestNG" />
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 54m 07s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 54m 31s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ApiTesting - 2018.09.08 at 21h 57m 00s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1001" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="852" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" weight="0.3277635" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39203084" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18958333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -275,6 +312,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added ResponseTextFile" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/ResponseTextFile.rtf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResponseTextFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -282,20 +329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ResponseTextFile.rtf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResponseTextFile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4680">
-          <caret line="312" column="26" lean-forward="true" selection-start-line="312" selection-start-column="26" selection-end-line="312" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="416">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
