@@ -12,9 +12,10 @@ Requirements to compile and run the code on OS X:
 
 - Latest version of gecko driver (I already included the latest version for OS X in the src folder but there may be a new update or you might be on a different OS) // https://github.com/mozilla/geckodriver/releases
 
+- Homebrew (Easier way to install Maven and many other things) // https://docs.brew.sh/Installation
+
 - I used Maven to manage dependencies as I find it better than just installing libraries manually // $ brew install maven (homebrew command)
 
-- Homebrew (Easier way to install Maven and many other things) // https://docs.brew.sh/Installation
 
 Maven Dependencies:
 
