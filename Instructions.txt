@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////////////////////////////
+
+Requirements to compile and run the code on OS X:
+
+////////////////////////////////////////////////////////////////////////////////
+
+- Java SDK 1.8 //http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+- The IDE of your preference, I use IntelliJ //https://www.jetbrains.com/idea/download/#section=mac
+
+- Latest version of Firefox Quantum //https://www.mozilla.org/en-US/firefox/
+
+- Latest version of gecko driver (I already included the latest version for OS X in the src folder but there may be a new update or you might be on a different OS) // https://github.com/mozilla/geckodriver/releases
+
+- I used Maven to manage dependencies as I find it better than just installing libraries manually // $ brew install maven (homebrew command)
+
+- Homebrew (Easier way to install Maven and many other things) // https://docs.brew.sh/Installation
+
+Maven Dependencies:
+
+The following dependencies are already in the Pom file and do not need to be installed if you are using Maven to manage dependencies, just synchronising Maven to download the sources should be enough.
+
+If you are not using Maven then both of this libraries need to be downloaded manually and imported to the project.
+
+- Latest version of TestNG // https://mvnrepository.com/artifact/org.testng/testng
+
+- Latest version of rest-assured // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+How to run the Tests
+
+///////////////////////////////////////////////////////////////////////////////////
+
+- After having installed everything in the list above open the project in the IDE of your choice
+
+- You may need to right click on the Pom file and select Maven -> Download Sources and Documentation
+
+- Open the ApiTesting Java Class in src > test > java
+
+- Run the ApiTesting Class with TestNG

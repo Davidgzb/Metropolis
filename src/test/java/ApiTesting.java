@@ -34,6 +34,7 @@ public class ApiTesting {
 
             while((line = bufferedReader.readLine()) != null){
 
+                // Finding every key in every line and asserting that the response JSON contains every one of them.
                 if (line.contains("\":")){
                     int startIndex = line.indexOf('\"');
                     int endIndex = line.indexOf(':', startIndex+1);
