@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35ce9d3c-8850-4191-8159-0985aa886593" name="Default" comment="Added ResponseTextFile">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiTesting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApiTesting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="59" column="132" selection-start-line="59" selection-start-column="132" selection-end-line="59" selection-end-column="132" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkJsonStructure#0;class#ApiTesting#0" />
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseTextFile.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResponseTextFile.txt">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="495">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="10" selection-end-line="33" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -52,9 +53,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ResponseTextFile.txt" />
         <option value="$PROJECT_DIR$/src/test/java/ApiTesting.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -66,7 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="53" />
+    <option name="x" value="97" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1001" />
   </component>
@@ -265,9 +267,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiTesting_checkLogInValue - 2018.09.08 at 22h 35m 30s.xml">
-      <configuration name="ApiTesting.checkLogInValue" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ApiTesting_checkLogInValue - 2018.09.08 at 22h 36m 07s.xml">
       <configuration name="ApiTesting.checkLogInValue" configurationId="TestNG" />
     </history-entry>
@@ -295,6 +294,9 @@
     <history-entry file="ApiTesting - 2018.09.08 at 23h 08m 56s.xml">
       <configuration name="ApiTesting" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ApiTesting - 2018.09.08 at 23h 27m 25s.xml">
+      <configuration name="ApiTesting" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1001" extended-state="6" />
@@ -308,7 +310,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -344,28 +346,28 @@
     <entry file="file://$PROJECT_DIR$/src/test/ResponseTextFile.rtf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ResponseTextFile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="59" column="132" selection-start-line="59" selection-start-column="132" selection-end-line="59" selection-end-column="132" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#checkJsonStructure#0;class#ApiTesting#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="10" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
